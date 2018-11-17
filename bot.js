@@ -100,7 +100,11 @@ message.delete(3000);
     if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
 message.channel.send('#rep <@!343743154429755392>').then(s => {
 s.delete(3000);
+    
 });
+            }
+});
+
 client3.on("message", message => {
           if (message.author.bot) return;
       if(!message.channel.guild) return;
@@ -109,6 +113,8 @@ message.delete(3000);
     if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
 message.channel.send('#rep <@!343743154429755392>').then(s => {
 s.delete(3000);
+});
+            }
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.login(process.env.BOT1_TOKEN);
