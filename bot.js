@@ -9,6 +9,8 @@ const Discord7 = require('discord.js');
 const Discord8 = require('discord.js');
 const Discord9 = require('discord.js');
 const Discord10 = require('discord.js');
+const Discord11 = require('discord.js');
+const Discord12 = require('discord.js');
 //////////////////////////////////////////////////////////////////////////////////////////////////
 const client1 = new Discord1.Client();
 const client2 = new Discord2.Client();
@@ -20,6 +22,8 @@ const client7 = new Discord7.Client();
 const client8 = new Discord8.Client();
 const client9 = new Discord9.Client();
 const client10 = new Discord10.Client();
+const client11 = new Discord10.Client();
+const client12 = new Discord10.Client();
 //////////////////////////////////////////////////////////////////////////////////////////////////
 var ServerID = "510514272229392384"; 
 var ChannelID = "512358370133671947";
@@ -81,6 +85,18 @@ client2.on('ready', () => {
      setInterval(timerFunc, 1500);
     });
  client10.on('ready', () => {
+    function timerFunc() {
+        client10.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+    }
+     setInterval(timerFunc, 1500);
+    });
+ client11.on('ready', () => {
+    function timerFunc() {
+        client10.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+    }
+     setInterval(timerFunc, 1500);
+    });
+ client12.on('ready', () => {
     function timerFunc() {
         client10.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
@@ -207,6 +223,30 @@ s.delete(3000);
 });
 }
 });
+client11.on("message", message => {
+      if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "say")) {
+message.delete(3000);
+    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+        let args = message.content.split(" ").slice(1);
+message.channel.send(args).then(s => {
+s.delete(3000);
+});
+}
+});
+client12.on("message", message => {
+      if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "say")) {
+message.delete(3000);
+    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+        let args = message.content.split(" ").slice(1);
+message.channel.send(args).then(s => {
+s.delete(3000);
+});
+}
+});
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on('ready', () => {
 client1.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
@@ -237,6 +277,12 @@ client9.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/
 });
 client10.on('ready', () => {
 client10.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+});
+client11.on('ready', () => {
+client11.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+});
+client12.on('ready', () => {
+client12.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on("message", message => {
@@ -354,6 +400,28 @@ s.delete(3000);
 });
             }
 });
+client11.on("message", message => {
+          if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "rep")) {
+message.delete(3000);
+    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+message.channel.send('#rep <@!343743154429755392>').then(s => {
+s.delete(3000);
+});
+            }
+});
+client12.on("message", message => {
+          if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "rep")) {
+message.delete(3000);
+    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+message.channel.send('#rep <@!343743154429755392>').then(s => {
+s.delete(3000);
+});
+            }
+});
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.login(process.env.BOT1_TOKEN);
 client2.login(process.env.BOT2_TOKEN);
@@ -365,3 +433,5 @@ client7.login(process.env.BOT7_TOKEN);
 client8.login(process.env.BOT8_TOKEN);
 client9.login(process.env.BOT9_TOKEN);
 client10.login(process.env.BOT10_TOKEN);
+client11.login(process.env.BOT11_TOKEN);
+client12.login(process.env.BOT12_TOKEN);
