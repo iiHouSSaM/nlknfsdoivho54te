@@ -19,7 +19,7 @@ const client6 = new Discord6.Client();
 const client7 = new Discord7.Client();
 const client8 = new Discord8.Client();
 const client9 = new Discord9.Client();
-const client10 = new Discor10.Client();
+const client10 = new Discord10.Client();
 //////////////////////////////////////////////////////////////////////////////////////////////////
 var ServerID = "510514272229392384"; 
 var ChannelID = "512358370133671947";
