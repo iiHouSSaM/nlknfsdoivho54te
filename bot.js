@@ -508,79 +508,79 @@ s.delete(3000);
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on('ready', () => {
-client1.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client1.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client2.on('ready', () => {
-client2.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client2.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client3.on('ready', () => {
-client3.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client3.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client4.on('ready', () => {
-client4.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client4.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client5.on('ready', () => {
-client5.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client5.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client6.on('ready', () => {
-client6.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client6.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client7.on('ready', () => {
-client7.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client7.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client8.on('ready', () => {
-client8.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client8.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client9.on('ready', () => {
-client9.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client9.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client10.on('ready', () => {
-client10.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client10.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client11.on('ready', () => {
-client11.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client11.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client12.on('ready', () => {
-client12.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client12.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client13.on('ready', () => {
-client13.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client13.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client14.on('ready', () => {
-client14.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client14.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client15.on('ready', () => {
-client15.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client15.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client16.on('ready', () => {
-client16.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client16.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client17.on('ready', () => {
-client17.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client17.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client18.on('ready', () => {
-client18.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client18.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client19.on('ready', () => {
-client19.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client19.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client20.on('ready', () => {
-client20.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client20.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client21.on('ready', () => {
-client21.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client21.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client22.on('ready', () => {
-client22.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client22.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client23.on('ready', () => {
-client23.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client23.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client24.on('ready', () => {
-client24.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client24.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client25.on('ready', () => {
-client25.user.setActivity('Hs..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client25.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
