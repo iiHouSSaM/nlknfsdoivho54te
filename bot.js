@@ -145,7 +145,7 @@ client14.on('ready', () => {
 client15.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
-    );
+    });
 client16.on('ready', () => {
     function timerFunc() {
         client16.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
