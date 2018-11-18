@@ -206,7 +206,6 @@ client25.on('ready', () => {
     }
      setInterval(timerFunc, 1500);
      );
-
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on("message", message => {
       if (message.author.bot) return;
@@ -508,7 +507,6 @@ s.delete(3000);
 });
 }
 });
-
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on('ready', () => {
 client1.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
@@ -585,7 +583,6 @@ client24.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv
 client25.on('ready', () => {
 client25.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
-
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on("message", message => {
           if (message.author.bot) return;
@@ -951,7 +948,6 @@ s.delete(3000);
 });
 }
 });
-
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.login(process.env.BOT1_TOKEN);
 client2.login(process.env.BOT2_TOKEN);
