@@ -68,73 +68,73 @@ client2.on('ready', () => {
     }
      setInterval(timerFunc, 1500);
     });
-    client3.on('ready', () => {
+client3.on('ready', () => {
     function timerFunc() {
         client3.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
- client4.on('ready', () => {
+client4.on('ready', () => {
     function timerFunc() {
         client4.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
- client5.on('ready', () => {
+client5.on('ready', () => {
     function timerFunc() {
         client5.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
- client6.on('ready', () => {
+client6.on('ready', () => {
     function timerFunc() {
         client6.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
- client7.on('ready', () => {
+client7.on('ready', () => {
     function timerFunc() {
         client7.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
- client8.on('ready', () => {
+client8.on('ready', () => {
     function timerFunc() {
         client8.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
- client9.on('ready', () => {
+client9.on('ready', () => {
     function timerFunc() {
         client9.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
- client10.on('ready', () => {
+client10.on('ready', () => {
     function timerFunc() {
         client10.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
- client11.on('ready', () => {
+client11.on('ready', () => {
     function timerFunc() {
         client11.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
- client12.on('ready', () => {
+client12.on('ready', () => {
     function timerFunc() {
         client12.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-    client13.on('ready', () => {
+client13.on('ready', () => {
     function timerFunc() {
         client13.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
-    client14.on('ready', () => {
+client14.on('ready', () => {
     function timerFunc() {
         client14.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
@@ -142,35 +142,35 @@ client2.on('ready', () => {
     });
     client15.on('ready', () => {
     function timerFunc() {
-        client15.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+client15.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     );
-    client16.on('ready', () => {
+client16.on('ready', () => {
     function timerFunc() {
         client16.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
      );
-    client17.on('ready', () => {
+client17.on('ready', () => {
     function timerFunc() {
         client17.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
      );
-    client18.on('ready', () => {
+client18.on('ready', () => {
     function timerFunc() {
         client18.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
      );
-    client19.on('ready', () => {
+client19.on('ready', () => {
     function timerFunc() {
         client19.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
      );
-    client20.on('ready', () => {
+client20.on('ready', () => {
     function timerFunc() {
         client20.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
@@ -178,29 +178,29 @@ client2.on('ready', () => {
      );
     client21.on('ready', () => {
     function timerFunc() {
-        client21.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+client21.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
      );
-    client22.on('ready', () => {
+client22.on('ready', () => {
     function timerFunc() {
         client22.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
      );
-    client23.on('ready', () => {
+client23.on('ready', () => {
     function timerFunc() {
         client23.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
    );
-    client24.on('ready', () => {
+client24.on('ready', () => {
     function timerFunc() {
         client24.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
      );
-    client25.on('ready', () => {
+client25.on('ready', () => {
     function timerFunc() {
         client25.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
