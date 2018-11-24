@@ -15,15 +15,6 @@ const Discord13 = require('discord.js');
 const Discord14 = require('discord.js');
 const Discord15 = require('discord.js');
 const Discord16 = require('discord.js');
-const Discord17 = require('discord.js');
-const Discord18 = require('discord.js');
-const Discord19 = require('discord.js');
-const Discord20 = require('discord.js');
-const Discord21 = require('discord.js');
-const Discord22 = require('discord.js');
-const Discord23 = require('discord.js');
-const Discord24 = require('discord.js');
-const Discord25 = require('discord.js');
 //////////////////////////////////////////////////////////////////////////////////////////////////
 const client1 = new Discord1.Client();
 const client2 = new Discord2.Client();
@@ -41,18 +32,9 @@ const client13 = new Discord13.Client();
 const client14 = new Discord14.Client();
 const client15 = new Discord15.Client();
 const client16 = new Discord16.Client();
-const client17 = new Discord17.Client();
-const client18 = new Discord18.Client();
-const client19 = new Discord19.Client();
-const client20 = new Discord20.Client();
-const client21 = new Discord21.Client();
-const client22 = new Discord22.Client();
-const client23 = new Discord23.Client();
-const client24 = new Discord24.Client();
-const client25 = new Discord25.Client();
 //////////////////////////////////////////////////////////////////////////////////////////////////
-var ServerID = "510514272229392384"; 
-var ChannelID = "512358370133671947";
+var ServerID = "515820353889763354"; 
+var ChannelID = "515820484076765185";
 var prefix = "H";
 console.log('Hs .. Online.');
 //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -152,60 +134,6 @@ client16.on('ready', () => {
     }
      setInterval(timerFunc, 1500);
          });
-client17.on('ready', () => {
-    function timerFunc() {
-        client17.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-client18.on('ready', () => {
-    function timerFunc() {
-        client18.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-client19.on('ready', () => {
-    function timerFunc() {
-        client19.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-client20.on('ready', () => {
-    function timerFunc() {
-        client20.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-client21.on('ready', () => {
-    function timerFunc() {
-         client21.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-client22.on('ready', () => {
-    function timerFunc() {
-        client22.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-         });
-client23.on('ready', () => {
-    function timerFunc() {
-        client23.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-client24.on('ready', () => {
-    function timerFunc() {
-        client24.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
-client25.on('ready', () => {
-    function timerFunc() {
-        client25.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
-    }
-     setInterval(timerFunc, 1500);
-    });
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on("message", message => {
       if (message.author.bot) return;
@@ -399,114 +327,6 @@ s.delete(3000);
 });
 }
 });
-client17.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-client18.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-client19.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-client20.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-client21.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-client22.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-client23.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-client24.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-client25.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on('ready', () => {
 client1.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
@@ -555,33 +375,6 @@ client15.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv
 });
 client16.on('ready', () => {
 client16.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
-});
-client17.on('ready', () => {
-client17.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
-});
-client18.on('ready', () => {
-client18.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
-});
-client19.on('ready', () => {
-client19.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
-});
-client20.on('ready', () => {
-client20.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
-});
-client21.on('ready', () => {
-client21.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
-});
-client22.on('ready', () => {
-client22.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
-});
-client23.on('ready', () => {
-client23.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
-});
-client24.on('ready', () => {
-client24.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
-});
-client25.on('ready', () => {
-client25.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on("message", message => {
@@ -822,132 +615,6 @@ s.delete(3000);
 });
 }
 });
-client17.on("message", message => {
-          if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "rep")) {
-message.delete(3000);
-    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!343743154429755392>').then(s => {
-s.delete(3000);
-});
-message.channel.send('->rep <@!343743154429755392>').then(s => {
-s.delete(3000);
-});
-}
-});
-client18.on("message", message => {
-          if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "rep")) {
-message.delete(3000);
-    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!343743154429755392>').then(s => {
-s.delete(3000);
-});
-message.channel.send('->rep <@!343743154429755392>').then(s => {
-s.delete(3000);
-});
-}
-});
-client19.on("message", message => {
-          if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "rep")) {
-message.delete(3000);
-    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!343743154429755392>').then(s => {
-s.delete(3000);
-});
-message.channel.send('->rep <@!343743154429755392>').then(s => {
-s.delete(3000);
-});
-}
-});
-client20.on("message", message => {
-          if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "rep")) {
-message.delete(3000);
-    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!343743154429755392>').then(s => {
-s.delete(3000);
-});
-message.channel.send('->rep <@!343743154429755392>').then(s => {
-s.delete(3000);
-});
-}
-});
-client21.on("message", message => {
-          if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "rep")) {
-message.delete(3000);
-    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!343743154429755392>').then(s => {
-s.delete(3000);
-});
-message.channel.send('->rep <@!343743154429755392>').then(s => {
-s.delete(3000);
-});
-}
-});
-client22.on("message", message => {
-          if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "rep")) {
-message.delete(3000);
-    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!343743154429755392>').then(s => {
-s.delete(3000);
-});
-message.channel.send('->rep <@!343743154429755392>').then(s => {
-s.delete(3000);
-});
-}
-});
-client23.on("message", message => {
-          if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "rep")) {
-message.delete(3000);
-    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!343743154429755392>').then(s => {
-s.delete(3000);
-});
-message.channel.send('->rep <@!343743154429755392>').then(s => {
-s.delete(3000);
-});
-}
-});
-client24.on("message", message => {
-          if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "rep")) {
-message.delete(3000);
-    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!343743154429755392>').then(s => {
-s.delete(3000);
-});
-message.channel.send('->rep <@!343743154429755392>').then(s => {
-s.delete(3000);
-});
-}
-});
-client25.on("message", message => {
-          if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "rep")) {
-message.delete(3000);
-    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!343743154429755392>').then(s => {
-s.delete(3000);
-});
-message.channel.send('->rep <@!343743154429755392>').then(s => {
-s.delete(3000);
-});
-}
-});
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.login(process.env.BOT1_TOKEN);
 client2.login(process.env.BOT2_TOKEN);
@@ -965,12 +632,3 @@ client13.login(process.env.BOT13_TOKEN);
 client14.login(process.env.BOT14_TOKEN);
 client15.login(process.env.BOT15_TOKEN);
 client16.login(process.env.BOT16_TOKEN);
-client17.login(process.env.BOT17_TOKEN);
-client18.login(process.env.BOT18_TOKEN);
-client19.login(process.env.BOT19_TOKEN);
-client20.login(process.env.BOT20_TOKEN);
-client21.login(process.env.BOT21_TOKEN);
-client22.login(process.env.BOT22_TOKEN);
-client23.login(process.env.BOT23_TOKEN);
-client24.login(process.env.BOT24_TOKEN);
-client25.login(process.env.BOT25_TOKEN);
