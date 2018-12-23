@@ -122,9 +122,9 @@ client14.on('ready', () => {
     }
      setInterval(timerFunc, 1500);
     });
-    client15.on('ready', () => {
+   client1.on('ready', () => {
     function timerFunc() {
-client15.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        client1.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
