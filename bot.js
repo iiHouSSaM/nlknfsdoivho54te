@@ -140,8 +140,8 @@ client1.on("message", message => {
       if(!message.channel.guild) return;
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
-    if(message.author.id !== "455331653309562910") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
+    if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+        let args = message.content.split(" ").slice(1).join(' ');
 message.channel.send(args).then(s => {
 s.delete(3000);
 });
@@ -153,7 +153,7 @@ client2.on("message", message => {
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
     if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
+       let args = message.content.split(" ").slice(1).join(' ');
 message.channel.send(args).then(s => {
 s.delete(3000);
 });
@@ -165,7 +165,7 @@ client3.on("message", message => {
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
     if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
+        let args = message.content.split(" ").slice(1).join(' ');
 message.channel.send(args).then(s => {
 s.delete(3000);
 });
@@ -177,7 +177,7 @@ client4.on("message", message => {
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
     if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
+        let args = message.content.split(" ").slice(1).join(' ');
 message.channel.send(args).then(s => {
 s.delete(3000);
 });
@@ -189,7 +189,7 @@ client5.on("message", message => {
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
     if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
+       let args = message.content.split(" ").slice(1).join(' ');
 message.channel.send(args).then(s => {
 s.delete(3000);
 });
@@ -201,7 +201,7 @@ client6.on("message", message => {
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
     if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
+        let args = message.content.split(" ").slice(1).join(' ');
 message.channel.send(args).then(s => {
 s.delete(3000);
 });
@@ -213,7 +213,7 @@ client7.on("message", message => {
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
     if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
+        let args = message.content.split(" ").slice(1).join(' ');
 message.channel.send(args).then(s => {
 s.delete(3000);
 });
@@ -225,7 +225,7 @@ client8.on("message", message => {
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
     if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
+        let args = message.content.split(" ").slice(1).join(' ');
 message.channel.send(args).then(s => {
 s.delete(3000);
 });
@@ -237,7 +237,7 @@ client9.on("message", message => {
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
     if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
+        let args = message.content.split(" ").slice(1).join(' ');
 message.channel.send(args).then(s => {
 s.delete(3000);
 });
@@ -249,7 +249,7 @@ client10.on("message", message => {
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
     if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
+        let args = message.content.split(" ").slice(1).join(' ');
 message.channel.send(args).then(s => {
 s.delete(3000);
 });
@@ -261,7 +261,7 @@ client11.on("message", message => {
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
     if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
+        llet args = message.content.split(" ").slice(1).join(' ');
 message.channel.send(args).then(s => {
 s.delete(3000);
 });
@@ -273,7 +273,7 @@ client12.on("message", message => {
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
     if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
+        let args = message.content.split(" ").slice(1).join(' ');
 message.channel.send(args).then(s => {
 s.delete(3000);
 });
@@ -285,7 +285,7 @@ client13.on("message", message => {
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
     if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
+        let args = message.content.split(" ").slice(1).join(' ');
 message.channel.send(args).then(s => {
 s.delete(3000);
 });
@@ -297,7 +297,7 @@ client14.on("message", message => {
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
     if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
+        let args = message.content.split(" ").slice(1).join(' ');
 message.channel.send(args).then(s => {
 s.delete(3000);
 });
@@ -309,7 +309,7 @@ client15.on("message", message => {
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
     if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
+        let args = message.content.split(" ").slice(1).join(' ');
 message.channel.send(args).then(s => {
 s.delete(3000);
 });
@@ -321,7 +321,7 @@ client16.on("message", message => {
         if(message.content.startsWith(prefix + "say")) {
 message.delete(3000);
     if(message.author.id !== "343743154429755392") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
+        let args = message.content.split(" ").slice(1).join(' ');
 message.channel.send(args).then(s => {
 s.delete(3000);
 });
@@ -329,52 +329,52 @@ s.delete(3000);
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on('ready', () => {
-client1.user.setActivity('Fuck Urself..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client1.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client2.on('ready', () => {
-client2.user.setActivity('Bitch', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client2.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client3.on('ready', () => {
-client3.user.setActivity('Lasagna ', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client3.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client4.on('ready', () => {
-client4.user.setActivity('IDC', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client4.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client5.on('ready', () => {
-client5.user.setActivity('IDGAF', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client5.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client6.on('ready', () => {
-client6.user.setActivity('Rainbow Ass ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client6.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client7.on('ready', () => {
-client7.user.setActivity('a7a7.', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client7.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client8.on('ready', () => {
 client8.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client9.on('ready', () => {
-client9.user.setActivity('Hopp.', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client9.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client10.on('ready', () => {
-client10.user.setActivity('Holy shit', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client10.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client11.on('ready', () => {
-client11.user.setActivity('its so good :)', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client11.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client12.on('ready', () => {
-client12.user.setActivity('I have a .. Wow', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client12.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client13.on('ready', () => {
-client13.user.setActivity('Fuck u Puta .', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client13.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client14.on('ready', () => {
-client14.user.setActivity('How?', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client14.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client15.on('ready', () => {
-client15.user.setActivity('why?', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client15.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 client16.on('ready', () => {
-client16.user.setActivity('Huh bitch', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
+client16.user.setActivity('Hs ..', {type: "STREAMING",url: "http://www.twitch.tv/iitxbro"});
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on("message", message => {
