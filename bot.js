@@ -7,7 +7,6 @@ const D5 = require('discord.js');
 const D6 = require('discord.js');
 const D7 = require('discord.js');
 const D8 = require('discord.js');
-
 //////////////////////////////////////////////////////////////////////////////////////////////////
 const p1 = new D1.Client();
 const p2 = new D2.Client();
@@ -17,7 +16,6 @@ const p5 = new D5.Client();
 const p6 = new D6.Client();
 const p7 = new D7.Client();
 const p8 = new D8.Client();
-
 //////////////////////////////////////////////////////////////////////////////////////////////////
 var ServerID = "523273139421970433"; 
 var ChannelID = "523451175710752768";
@@ -462,4 +460,3 @@ p5.login(process.env.B5);
 p6.login(process.env.B6);
 p7.login(process.env.B7);
 p8.login(process.env.B8);
-
