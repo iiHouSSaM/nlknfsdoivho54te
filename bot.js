@@ -390,7 +390,7 @@ p3.on("message", message => {
 if(!message.channel.guild) return;
   if(message.content.startsWith(prefix + "cr")) {
 message.delete(3000);
-if(message.author.id !== "343743154429755392") return message.reply('').then(msg => msg.delete(3000));
+if(message.author.id !== "540621956442226688") return message.reply('').then(msg => msg.delete(3000));
 message.channel.send('#credit').then(s => {
 s.delete(3000);
 });
