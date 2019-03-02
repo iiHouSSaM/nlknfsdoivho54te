@@ -34,7 +34,7 @@ const p15 = new D15.Client();
 const p16 = new D16.Client();
 //////////////////////////////////////////////////////////////////////////////////////////////////
 var ServerID = "520296992161792000"; 
-var ChannelID = "551429776058089507";
+var ChannelID = "543173974205399046";
 var prefix = "H";
 console.log('MeeRcY , Code.');
 //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -128,9 +128,9 @@ p15.on('ready', () => {
     }
      setInterval(timerFunc, 1500);
     });
-p15.on('ready', () => {  
+p16.on('ready', () => {  
     function timerFunc() {
-        p15.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+        p16.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
@@ -247,7 +247,6 @@ p16.on('message', message => {
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-
 //////////////////////////////////////////////////////////////////////////////////////////////////
 p1.on("message", message => {
       if (message.author.bot) return;
@@ -443,52 +442,52 @@ s.delete(3000);
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
 p1.on('ready', () => {
-p1.user.setActivity("HouuuuSSaM.",{type: 'LISTENING'})
+p1.user.setActivity("iiHouuuuSSaM.",{type: 'LISTENING'})
 });
 p2.on('ready', () => {
-p2.user.setActivity("HouuuuSSaM.",{type: 'LISTENING'})
+p2.user.setActivity("iiHouuuuSSaM.",{type: 'LISTENING'})
 });
 p3.on('ready', () => {
-p3.user.setActivity("HouuuuSSaM.",{type: 'LISTENING'})
+p3.user.setActivity("iiHouuuuSSaM.",{type: 'LISTENING'})
 });
 p4.on('ready', () => {
-p4.user.setActivity("HouuuuSSaM.",{type: 'LISTENING'})
+p4.user.setActivity("iiHouuuuSSaM.",{type: 'LISTENING'})
 });
 p5.on('ready', () => {
-p5.user.setActivity("HouuuuSSaM.",{type: 'LISTENING'})
+p5.user.setActivity("iiHouuuuSSaM.",{type: 'LISTENING'})
 });
 p6.on('ready', () => {
-p6.user.setActivity("HouuuuSSaM.",{type: 'LISTENING'})
+p6.user.setActivity("iiHouuuuSSaM.",{type: 'LISTENING'})
 });
 p7.on('ready', () => {
-p7.user.setActivity("HouuuuSSaM.",{type: 'LISTENING'})
+p7.user.setActivity("iiHouuuuSSaM.",{type: 'LISTENING'})
 });
 p8.on('ready', () => {
-p8.user.setActivity("HouuuuSSaM.",{type: 'LISTENING'})
+p8.user.setActivity("iiHouuuuSSaM.",{type: 'LISTENING'})
 });
 p9.on('ready', () => {
-p9.user.setActivity("HouuuuSSaM.",{type: 'LISTENING'})
+p9.user.setActivity("iiHouuuuSSaM.",{type: 'LISTENING'})
 });
 p10.on('ready', () => {
-p10.user.setActivity("HouuuuSSaM.",{type: 'LISTENING'})
+p10.user.setActivity("iiHouuuuSSaM.",{type: 'LISTENING'})
 });
 p11.on('ready', () => {
-p11.user.setActivity("HouuuuSSaM.",{type: 'LISTENING'})
+p11.user.setActivity("iiHouuuuSSaM.",{type: 'LISTENING'})
 });
 p12.on('ready', () => {
-p12.user.setActivity("HouuuuSSaM.",{type: 'LISTENING'})
+p12.user.setActivity("iiHouuuuSSaM.",{type: 'LISTENING'})
 });
 p13.on('ready', () => {
-p13.user.setActivity("HouuuuSSaM.",{type: 'LISTENING'})
+p13.user.setActivity("iiHouuuuSSaM.",{type: 'LISTENING'})
 });
 p14.on('ready', () => {
-p14.user.setActivity("HouuuuSSaM.",{type: 'LISTENING'})
+p14.user.setActivity("iiHouuuuSSaM.",{type: 'LISTENING'})
 });
 p15.on('ready', () => {
-p15.user.setActivity("HouuuuSSaM.",{type: 'LISTENING'})
+p15.user.setActivity("iiHouuuuSSaM.",{type: 'LISTENING'})
 });
 p16.on('ready', () => {
-p16.user.setActivity("HouuuuSSaM.",{type: 'LISTENING'})
+p16.user.setActivity("iiHouuuuSSaM.",{type: 'LISTENING'})
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
 p1.on("message", message => {
