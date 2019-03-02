@@ -24,14 +24,14 @@ const p5 = new D5.Client();
 const p6 = new D6.Client();
 const p7 = new D7.Client();
 const p8 = new D8.Client();
-const p9 = new D1.Client();
-const p10 = new D2.Client();
-const p11 = new D3.Client();
-const p12 = new D4.Client();
-const p13 = new D5.Client();
-const p14 = new D6.Client();
-const p15 = new D7.Client();
-const p16 = new D8.Client();
+const p9 = new D9.Client();
+const p10 = new D10.Client();
+const p11 = new D11.Client();
+const p12 = new D12.Client();
+const p13 = new D13.Client();
+const p14 = new D14.Client();
+const p15 = new D15.Client();
+const p16 = new D16.Client();
 //////////////////////////////////////////////////////////////////////////////////////////////////
 var ServerID = "520296992161792000"; 
 var ChannelID = "551429776058089507";
@@ -83,6 +83,54 @@ p7.on('ready', () => {
 p8.on('ready', () => {
     function timerFunc() {
         p8.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+    }
+     setInterval(timerFunc, 1500);
+    });
+p9.on('ready', () => {  
+    function timerFunc() {
+        p9.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+    }
+     setInterval(timerFunc, 1500);
+    });
+p10.on('ready', () => {  
+    function timerFunc() {
+        p10.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+    }
+     setInterval(timerFunc, 1500);
+    });
+p11.on('ready', () => {  
+    function timerFunc() {
+        p11.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+    }
+     setInterval(timerFunc, 1500);
+    });
+p12.on('ready', () => {  
+    function timerFunc() {
+        p12.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+    }
+     setInterval(timerFunc, 1500);
+    });
+p13.on('ready', () => {  
+    function timerFunc() {
+        p13.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+    }
+     setInterval(timerFunc, 1500);
+    });
+p14.on('ready', () => {  
+    function timerFunc() {
+        p14.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+    }
+     setInterval(timerFunc, 1500);
+    });
+p15.on('ready', () => {  
+    function timerFunc() {
+        p15.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
+    }
+     setInterval(timerFunc, 1500);
+    });
+p15.on('ready', () => {  
+    function timerFunc() {
+        p15.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7));
     }
      setInterval(timerFunc, 1500);
     });
@@ -854,11 +902,11 @@ p5.login(process.env.B5);
 p6.login(process.env.B6);
 p7.login(process.env.B7);
 p8.login(process.env.B8);
-p9.login(process.env.B1);
-p10.login(process.env.B2);
-p11.login(process.env.B3);
-p12.login(process.env.B4);
-p13.login(process.env.B5);
-p14.login(process.env.B6);
-p15.login(process.env.B7);
-p16.login(process.env.B8);
+p9.login(process.env.B9);
+p10.login(process.env.B10);
+p11.login(process.env.B11);
+p12.login(process.env.B12);
+p13.login(process.env.B13);
+p14.login(process.env.B14);
+p15.login(process.env.B15);
+p16.login(process.env.B16);
